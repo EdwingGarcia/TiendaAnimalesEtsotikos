@@ -67,7 +67,7 @@ namespace ApiAnimalesEtsotikos.Controllers
                 cliente1.Cedula = cliente.Cedula !=null? cliente.Cedula : cliente1.Cedula;
                 cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
                 cliente1.Nombre = cliente.Nombre != null ? cliente.Nombre : cliente1.Nombre;
-                cliente1.AnimalComprado=cliente.AnimalComprado != null ? cliente.AnimalComprado : cliente1.AnimalComprado;
+                //cliente1.AnimalComprado=cliente.AnimalComprado != null ? cliente.AnimalComprado : cliente1.AnimalComprado;
                 _db.Cliente.Update(cliente1);
                 await _db.SaveChangesAsync();
                 return Ok(cliente1);

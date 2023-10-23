@@ -22,7 +22,7 @@ namespace ApiAnimalesEtsotikos.Data
                     Peso = 54,
                     Status = 0,
                     Enfermedad = "gonorrea",
-                    Propietario = null
+                    CedulaCliente = null
                 },
                 new Animal()
                 {
@@ -34,13 +34,14 @@ namespace ApiAnimalesEtsotikos.Data
                     Peso = 22,
                     Status = 1,
                     Enfermedad = "estudiar derecho",
-                    Propietario = null
+                    CedulaCliente = null
                 }
             );
 
             modelBuilder.Entity<Cliente>().HasData(
                 new Cliente()
                 {
+                    Id = 1,
                     Cedula = 1723124796,
                     Nombre = "Edwing",
                     Direccion = "Conocoto"

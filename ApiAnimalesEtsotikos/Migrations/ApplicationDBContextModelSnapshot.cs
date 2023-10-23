@@ -33,6 +33,9 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.Property<float>("Altura")
                         .HasColumnType("real");
 
+                    b.Property<int?>("CedulaCliente")
+                        .HasColumnType("int");
+
                     b.Property<string>("Enfermedad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -51,9 +54,6 @@ namespace ApiAnimalesEtsotikos.Migrations
 
                     b.Property<float>("Peso")
                         .HasColumnType("real");
-
-                    b.Property<int?>("Propietario")
-                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -89,13 +89,13 @@ namespace ApiAnimalesEtsotikos.Migrations
 
             modelBuilder.Entity("ApiAnimalesEtsotikos.Models.Cliente", b =>
                 {
-                    b.Property<int>("Cedula")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Cedula"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AnimalComprado")
+                    b.Property<int>("Cedula")
                         .HasColumnType("int");
 
                     b.Property<string>("Direccion")
@@ -106,13 +106,14 @@ namespace ApiAnimalesEtsotikos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Cedula");
+                    b.HasKey("Id");
 
                     b.ToTable("Cliente");
 
                     b.HasData(
                         new
                         {
+                            Id = 1,
                             Cedula = 1723124796,
                             Direccion = "Conocoto",
                             Nombre = "Edwing"

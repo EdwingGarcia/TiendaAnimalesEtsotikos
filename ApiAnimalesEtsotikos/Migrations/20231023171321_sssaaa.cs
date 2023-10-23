@@ -7,7 +7,7 @@
 namespace ApiAnimalesEtsotikos.Migrations
 {
     /// <inheritdoc />
-    public partial class ModelsAdded : Migration
+    public partial class sssaaa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -25,7 +25,7 @@ namespace ApiAnimalesEtsotikos.Migrations
                     Peso = table.Column<float>(type: "real", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     Enfermedad = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Propietario = table.Column<int>(type: "int", nullable: true)
+                    CedulaCliente = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -36,30 +36,30 @@ namespace ApiAnimalesEtsotikos.Migrations
                 name: "Cliente",
                 columns: table => new
                 {
-                    Cedula = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Cedula = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AnimalComprado = table.Column<int>(type: "int", nullable: true)
+                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cliente", x => x.Cedula);
+                    table.PrimaryKey("PK_Cliente", x => x.Id);
                 });
 
             migrationBuilder.InsertData(
                 table: "Animal",
-                columns: new[] { "Id", "Altura", "Enfermedad", "Nombre", "NombreCientifico", "PaisOrigen", "Peso", "Propietario", "Status" },
+                columns: new[] { "Id", "Altura", "CedulaCliente", "Enfermedad", "Nombre", "NombreCientifico", "PaisOrigen", "Peso", "Status" },
                 values: new object[,]
                 {
-                    { 1, 6.5f, "gonorrea", "Carlos", "popo", "Sudamérica del Norte", 54f, null, 0 },
-                    { 2, 2.4f, "estudiar derecho", "Julian", "pipi", "Norteamérica del Sur", 22f, null, 1 }
+                    { 1, 6.5f, null, "gonorrea", "Carlos", "popo", "Sudamérica del Norte", 54f, 0 },
+                    { 2, 2.4f, null, "estudiar derecho", "Julian", "pipi", "Norteamérica del Sur", 22f, 1 }
                 });
 
             migrationBuilder.InsertData(
                 table: "Cliente",
-                columns: new[] { "Cedula", "AnimalComprado", "Direccion", "Nombre" },
-                values: new object[] { 1723124796, null, "Conocoto", "Edwing" });
+                columns: new[] { "Id", "Cedula", "Direccion", "Nombre" },
+                values: new object[] { 1, 1723124796, "Conocoto", "Edwing" });
         }
 
         /// <inheritdoc />

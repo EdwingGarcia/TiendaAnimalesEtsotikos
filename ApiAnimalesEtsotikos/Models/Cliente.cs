@@ -6,10 +6,11 @@ namespace ApiAnimalesEtsotikos.Models
     public class Cliente
     {
         [Key]
+        public int Id { get; set; }
         public int Cedula { get; set; }
         [Required]
         public string Nombre { get; set; }
         public string Direccion { get; set; }
-        public int? AnimalComprado { get; set; } //Id animal
+        
     }
 }

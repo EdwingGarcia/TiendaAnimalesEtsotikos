@@ -15,7 +15,7 @@ namespace ApiAnimalesEtsotikos.Models
         [Required]
         public int Status { get; set; } //  NoComprado=0 Comprado=1 Internado=2
         public string Enfermedad { get; set; }
-        public int? Propietario { get; set; }//Cedula Propietario
+        public int? CedulaCliente { get; set; }//Cedula Propietario
 
 
 
