@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiAnimalesEtsotikos.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231023171321_sssaaa")]
-    partial class sssaaa
+    [Migration("20231023180955_aa")]
+    partial class aa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

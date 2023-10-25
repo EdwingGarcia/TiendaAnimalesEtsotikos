@@ -7,7 +7,7 @@
 namespace ApiAnimalesEtsotikos.Migrations
 {
     /// <inheritdoc />
-    public partial class sssaaa : Migration
+    public partial class aa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

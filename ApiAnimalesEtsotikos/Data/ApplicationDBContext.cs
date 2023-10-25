@@ -15,25 +15,25 @@ namespace ApiAnimalesEtsotikos.Data
                 new Animal()
                 {
                     Id = 1,
-                    Nombre = "Carlos",
+                    Nombre = "DODO",
                     NombreCientifico = "popo",
                     PaisOrigen = "Sudamérica del Norte",
                     Altura = 6.5f,
                     Peso = 54,
                     Status = 0,
-                    Enfermedad = "gonorrea",
+                    Enfermedad = "Sin un ojo",
                     CedulaCliente = null
                 },
                 new Animal()
                 {
                     Id = 2,
-                    Nombre = "Julian",
+                    Nombre = "perro",
                     NombreCientifico = "pipi",
                     PaisOrigen = "Norteamérica del Sur",
                     Altura = 2.4f,
                     Peso = 22,
                     Status = 1,
-                    Enfermedad = "estudiar derecho",
+                    Enfermedad = "tos",
                     CedulaCliente = null
                 }
             );

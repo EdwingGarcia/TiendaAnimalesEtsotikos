@@ -107,9 +107,7 @@ namespace ApiAnimalesEtsotikos.Controllers
         [HttpGet("GetAnimalesPorCedula/{CedulaCliente}")]
         public async Task<ActionResult<IEnumerable<Animal>>> GetAnimalesPorCedula(int CedulaCliente)
         {
-            var animales = await _db.Animal
-                .Where(a => a.CedulaCliente == CedulaCliente)
-                .ToListAsync();
+            var animales = await _db.Animal.Where(a => a.CedulaCliente == CedulaCliente).ToListAsync();
 
             if (animales == null || animales.Count == 0)
             {
