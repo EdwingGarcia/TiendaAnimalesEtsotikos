@@ -22,7 +22,7 @@ namespace ApiAnimalesEtsotikos.Data
                     Peso = 54,
                     Status = 0,
                     Enfermedad = "Sin un ojo",
-                    CedulaCliente = null
+                    Propietario = null
                 },
                 new Animal()
                 {
@@ -34,7 +34,7 @@ namespace ApiAnimalesEtsotikos.Data
                     Peso = 22,
                     Status = 1,
                     Enfermedad = "tos",
-                    CedulaCliente = null
+                    Propietario = null
                 }
             );
 

@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\TiendaAnimalesEtsotikos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Animal/Buscar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEJ1c2Nhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Animal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Animal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Animal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Animal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nicko/Documents/Quinto/Programación IV/Proyectos/TiendaAnimalesEtsotikos/TiendaAnimalesEtsotikos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

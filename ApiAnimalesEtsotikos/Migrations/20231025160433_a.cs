@@ -7,7 +7,7 @@
 namespace ApiAnimalesEtsotikos.Migrations
 {
     /// <inheritdoc />
-    public partial class aa : Migration
+    public partial class a : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -25,7 +25,7 @@ namespace ApiAnimalesEtsotikos.Migrations
                     Peso = table.Column<float>(type: "real", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     Enfermedad = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CedulaCliente = table.Column<int>(type: "int", nullable: true)
+                    Propietario = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -49,11 +49,11 @@ namespace ApiAnimalesEtsotikos.Migrations
 
             migrationBuilder.InsertData(
                 table: "Animal",
-                columns: new[] { "Id", "Altura", "CedulaCliente", "Enfermedad", "Nombre", "NombreCientifico", "PaisOrigen", "Peso", "Status" },
+                columns: new[] { "Id", "Altura", "Enfermedad", "Nombre", "NombreCientifico", "PaisOrigen", "Peso", "Propietario", "Status" },
                 values: new object[,]
                 {
-                    { 1, 6.5f, null, "gonorrea", "Carlos", "popo", "Sudamérica del Norte", 54f, 0 },
-                    { 2, 2.4f, null, "estudiar derecho", "Julian", "pipi", "Norteamérica del Sur", 22f, 1 }
+                    { 1, 6.5f, "Sin un ojo", "DODO", "popo", "Sudamérica del Norte", 54f, null, 0 },
+                    { 2, 2.4f, "tos", "perro", "pipi", "Norteamérica del Sur", 22f, null, 1 }
                 });
 
             migrationBuilder.InsertData(

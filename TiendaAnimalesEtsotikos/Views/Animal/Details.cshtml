@@ -1,0 +1,50 @@
+﻿@model Animal
+@{
+    ViewData["Title"] = "Detalles animal";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>En esta pagina puede ver los datos de un animal a detalle.</p>
+<form method="post">
+
+    <div class="mb-3">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Nombre Cientifico</label>
+        <input asp-for="NombreCientifico" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Pais de Origen</label>
+        <input asp-for="PaisOrigen" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Altura</label>
+        <input asp-for="Altura" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Peso</label>
+        <input asp-for="Peso" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Status</label>
+        <input asp-for="Status" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Enfermedad</label>
+        <input asp-for="Enfermedad" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Propietario</label>
+        <input asp-for="Propietario" class="form-control" disabled>
+    </div>
+
+    <div class="row">
+        <div class=" m-auto">
+            
+            <a asp-action="Index" class="btn btn-primary">Regresar</a>
+        </div>
+    </div>
+
+</form>

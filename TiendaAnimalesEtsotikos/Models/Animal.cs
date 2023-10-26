@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ApiAnimalesEtsotikos.Models
+namespace TiendaAnimalesEtsotikos.Models
 {
     public class Animal
     {

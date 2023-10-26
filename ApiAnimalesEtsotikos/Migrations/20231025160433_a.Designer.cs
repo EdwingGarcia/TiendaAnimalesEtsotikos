@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiAnimalesEtsotikos.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231023180955_aa")]
-    partial class aa
+    [Migration("20231025160433_a")]
+    partial class a
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,9 +36,6 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.Property<float>("Altura")
                         .HasColumnType("real");
 
-                    b.Property<int?>("CedulaCliente")
-                        .HasColumnType("int");
-
                     b.Property<string>("Enfermedad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -58,6 +55,9 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.Property<float>("Peso")
                         .HasColumnType("real");
 
+                    b.Property<int?>("Propietario")
+                        .HasColumnType("int");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -70,8 +70,8 @@ namespace ApiAnimalesEtsotikos.Migrations
                         {
                             Id = 1,
                             Altura = 6.5f,
-                            Enfermedad = "gonorrea",
-                            Nombre = "Carlos",
+                            Enfermedad = "Sin un ojo",
+                            Nombre = "DODO",
                             NombreCientifico = "popo",
                             PaisOrigen = "Sudamérica del Norte",
                             Peso = 54f,
@@ -81,8 +81,8 @@ namespace ApiAnimalesEtsotikos.Migrations
                         {
                             Id = 2,
                             Altura = 2.4f,
-                            Enfermedad = "estudiar derecho",
-                            Nombre = "Julian",
+                            Enfermedad = "tos",
+                            Nombre = "perro",
                             NombreCientifico = "pipi",
                             PaisOrigen = "Norteamérica del Sur",
                             Peso = 22f,

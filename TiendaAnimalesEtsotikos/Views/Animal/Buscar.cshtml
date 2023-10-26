@@ -1,0 +1,67 @@
+﻿@model List<Animal>
+
+@{
+    ViewData["Title"] = "Buscar  Animales";
+}
+<h1>@ViewData["Title"]</h1>
+
+<button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Animal")'">Ingresar un animal</button>
+
+
+<form asp-controller="Animal" asp-action="Buscar" method="get">
+    <p>Buscar Dueño de Animales</p>
+    <div class="mb-3">
+        <input type="text" name="Propietario" class="form-control">
+        <button type="submit" class="btn btn-danger">Buscar</button>
+    </div>
+</form>
+
+
+<p>Listado de nuestros animales. Como administrador, usted puede ingresar, editar, visualizar y borrar animales.</p>
+
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Nombre Cientifico</th>
+            <th scope="col">Pais de origen</th>
+            <th scope="col">Altura</th>
+            <th scope="col">Peso</th>
+            <th scope="col">Status</th>
+            <th scope="col">Enfermedad</th>
+            <th scope="col">Cedula Cliente</th>
+            <th scope="col">Acciones</th>
+
+        </tr>
+    </thead>
+   
+    <tbody>
+        @foreach(var Item in Model){
+        <tr>
+            <td>@Item.Id</td>
+            <td>@Item.Nombre</td>
+            <td>@Item.NombreCientifico</td>
+            <td>@Item.PaisOrigen</td>
+            <td>@Item.Altura</td>
+            <td>@Item.Peso</td>
+            <td>@Item.Status</td>
+            <td>@Item.Enfermedad</td>
+            <td>@Item.Propietario</td>
+
+            <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a type="button" asp-action="Delete" asp-route-Id="@Item.Id" class="btn btn-warning"><i class="bi bi-trash-fill"></i></a>
+                        <a type="button" asp-action="Edit" asp-route-Id="@Item.Id"  class="btn btn-info"><i class="bi bi-pencil-square"></i></a>
+                        <a type="button" asp-action="Details" asp-route-Id="@Item.Id"  class="btn btn-danger"><i class="bi bi-eye-fill"></i></a>
+                        
+                    </div>
+               
+             </td>
+
+        </tr>
+        }
+        
+    </tbody>
+</table>

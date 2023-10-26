@@ -33,9 +33,6 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.Property<float>("Altura")
                         .HasColumnType("real");
 
-                    b.Property<int?>("CedulaCliente")
-                        .HasColumnType("int");
-
                     b.Property<string>("Enfermedad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -54,6 +51,9 @@ namespace ApiAnimalesEtsotikos.Migrations
 
                     b.Property<float>("Peso")
                         .HasColumnType("real");
+
+                    b.Property<int?>("Propietario")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");

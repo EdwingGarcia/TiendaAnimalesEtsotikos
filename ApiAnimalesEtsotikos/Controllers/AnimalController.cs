@@ -76,7 +76,7 @@ namespace ApiAnimalesEtsotikos.Controllers
                 animal1.Peso = animal.Peso != null ? animal.Peso : animal1.Peso;
                 animal1.Status= animal.Status != null ? animal.Status : animal1.Status;
                 animal1.Enfermedad= animal.Enfermedad != null ? animal.Enfermedad : animal1.Enfermedad;
-                animal1.CedulaCliente= animal.CedulaCliente != null ? animal.CedulaCliente : animal1.CedulaCliente;
+                animal1.Propietario= animal.Propietario != null ? animal.Propietario : animal1.Propietario;
                 _db.Animal.Update(animal1);
                 await _db.SaveChangesAsync();
                 return Ok(animal1);
@@ -104,10 +104,10 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         }
 
-        [HttpGet("GetAnimalesPorCedula/{CedulaCliente}")]
-        public async Task<ActionResult<IEnumerable<Animal>>> GetAnimalesPorCedula(int CedulaCliente)
+        [HttpGet("GetAnimalesPorCedula/{Propietario}")]
+        public async Task<ActionResult<List<Animal>>> GetAnimalesPorCedula(int Propietario)
         {
-            var animales = await _db.Animal.Where(a => a.CedulaCliente == CedulaCliente).ToListAsync();
+            var animales = await _db.Animal.Where(a => a.Propietario == Propietario).ToListAsync();
 
             if (animales == null || animales.Count == 0)
             {
