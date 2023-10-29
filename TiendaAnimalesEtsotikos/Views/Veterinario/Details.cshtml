@@ -1,0 +1,30 @@
+﻿@model Veterinario
+@{
+    ViewData["Title"] = "Detalles de las veterinarias";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>En esta pagina puede ver los datos de una clinica a detalle.</p>
+<form method="post">
+
+    <div class="mb-3">
+        <label>Nombre de la veterinaria</label>
+        <input asp-for="NombreVeterinario" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Dirección</label>
+        <input asp-for="DireccionVeterinario" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+        <label>Teléfono</label>
+        <input asp-for="TelefonoVeterinario" class="form-control" disabled>
+    </div>
+
+    <div class="row">
+        <div class=" m-auto">
+
+            <a asp-action="Index" class="btn btn-primary">Regresar</a>
+        </div>
+    </div>
+
+</form>

@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" width="50" /> </a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="StartIndex"><img src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" width="50" /> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,29 +23,16 @@
                     <ul class="navbar-nav flex-grow-1">
                         
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="StartIndex">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Animal" asp-action="Index">Nuestros animales</a>
-                        </li>
-                        
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Cliente" asp-action="Index">Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Veterinario" asp-action="Index">Veterinario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Adopcion" asp-action="Index">Adopción</a>
-                        </li>
-                        
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item ml-auto">
-                            <a asp-action="StartIndex" class="btn btn-primary">Logout</a>
+                            <a asp-action="Login" class="btn btn-primary">Login</a>
+                            <a asp-action="SignUp" class="btn btn-primary">Sign Up</a>
                         </li>
-                    </ul>
+                    </ul>                    
+                    
                 </div>
             </div>
         </nav>

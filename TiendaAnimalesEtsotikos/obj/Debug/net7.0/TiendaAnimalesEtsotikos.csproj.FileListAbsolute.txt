@@ -59,3 +59,4 @@ C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotik
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\TiendaAnimalesEtsotikos\obj\Debug\net7.0\TiendaAnimalesEtsotikos.pdb
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\TiendaAnimalesEtsotikos\obj\Debug\net7.0\TiendaAnimalesEtsotikos.genruntimeconfig.cache
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\TiendaAnimalesEtsotikos\obj\Debug\net7.0\ref\TiendaAnimalesEtsotikos.dll
+C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\TiendaAnimalesEtsotikos\obj\Debug\net7.0\scopedcss\Views\Shared\_StartLayout.cshtml.rz.scp.css

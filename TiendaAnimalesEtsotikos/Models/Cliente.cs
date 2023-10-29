@@ -5,6 +5,7 @@ namespace TiendaAnimalesEtsotikos.Models
 {
     public class Cliente
     {
+        public string Password { get; set; }
         [Key]
         public int Cedula { get; set; }
         [Required]

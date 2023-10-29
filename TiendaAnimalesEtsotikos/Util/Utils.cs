@@ -48,5 +48,46 @@ namespace TiendaAnimalesEtsotikos.Util
             }
         };
 
+
+            public static List<Cliente> ListaCliente = new List<Cliente>()
+        {
+            new Cliente()
+            {
+                Cedula = 1234,
+                Nombre = "julian",
+                Direccion = "guerrero",
+                AnimalComprado = 123,
+                Password = "asd"
+
+            },
+            new Cliente()
+            {
+                Cedula = 0987,
+                Nombre = "sara",
+                Direccion = "guerrero",
+                AnimalComprado = 098,
+                Password = "asd"
+
+            }
+        };
+
+        public static List<Veterinario> ListaVeterinario = new List<Veterinario>()
+        {
+            new Veterinario()
+            {
+                NombreVeterinario = "solca",
+                DireccionVeterinario = "sangolqui",
+                TelefonoVeterinario = 23875
+
+            },
+            new Veterinario()
+            {
+                NombreVeterinario = "perritosINC",
+                DireccionVeterinario = "condado",
+                TelefonoVeterinario = 098765
+
+            }
+        };
+
     }
 }
