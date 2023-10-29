@@ -57,17 +57,18 @@ namespace ApiAnimalesEtsotikos.Controllers
             return BadRequest("El objeto no existe");
         }
 
-        // PUT api/<ClienteController>/5
+
+        // PUT api/<AnimalController>/5
         [HttpPut("{Cedula}")]
         public async Task<IActionResult> Put(int Cedula, [FromBody] Cliente cliente)
         {
-            Cliente cliente1=await _db.Cliente.FirstOrDefaultAsync(x=>x.Cedula==cliente.Cedula);
+            Cliente cliente1 = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == cliente.Cedula);
             if (cliente1 != null)
             {
-                cliente1.Cedula = cliente.Cedula !=null? cliente.Cedula : cliente1.Cedula;
-                cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
                 cliente1.Nombre = cliente.Nombre != null ? cliente.Nombre : cliente1.Nombre;
-                //cliente1.AnimalComprado=cliente.AnimalComprado != null ? cliente.AnimalComprado : cliente1.AnimalComprado;
+               cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
+               
+
                 _db.Cliente.Update(cliente1);
                 await _db.SaveChangesAsync();
                 return Ok(cliente1);
@@ -90,5 +91,6 @@ namespace ApiAnimalesEtsotikos.Controllers
             return BadRequest();
     
         }
+
     }
 }

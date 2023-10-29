@@ -36,15 +36,28 @@ namespace ApiAnimalesEtsotikos.Migrations
                 name: "Cliente",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Cedula = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Cedula = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cliente", x => x.Id);
+                    table.PrimaryKey("PK_Cliente", x => x.Cedula);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Veterinario",
+                columns: table => new
+                {
+                    NombreVeterinario = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    DireccionVeterinario = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TelefonoVeterinario = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Veterinario", x => x.NombreVeterinario);
                 });
 
             migrationBuilder.InsertData(
@@ -58,8 +71,13 @@ namespace ApiAnimalesEtsotikos.Migrations
 
             migrationBuilder.InsertData(
                 table: "Cliente",
-                columns: new[] { "Id", "Cedula", "Direccion", "Nombre" },
-                values: new object[] { 1, 1723124796, "Conocoto", "Edwing" });
+                columns: new[] { "Cedula", "Direccion", "Nombre", "Password" },
+                values: new object[] { 1723124796, "Conocoto", "Edwing", "password" });
+
+            migrationBuilder.InsertData(
+                table: "Veterinario",
+                columns: new[] { "NombreVeterinario", "DireccionVeterinario", "TelefonoVeterinario" },
+                values: new object[] { "Patitas del Saber", "cuba", 0 });
         }
 
         /// <inheritdoc />
@@ -70,6 +88,9 @@ namespace ApiAnimalesEtsotikos.Migrations
 
             migrationBuilder.DropTable(
                 name: "Cliente");
+
+            migrationBuilder.DropTable(
+                name: "Veterinario");
         }
     }
 }

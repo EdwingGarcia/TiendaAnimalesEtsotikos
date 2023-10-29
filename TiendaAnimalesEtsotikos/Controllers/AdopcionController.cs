@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
 using TiendaAnimalesEtsotikos.Models;
 
 namespace TiendaAnimalesEtsotikos.Controllers
@@ -12,33 +13,30 @@ namespace TiendaAnimalesEtsotikos.Controllers
             return View(Util.Utils.ListaCliente);
         }
 
+        private readonly HttpClient _httpClient;
+        private readonly string _apiBaseUrl = "http://localhost:5198";
 
-
-        public IActionResult Edit(int Cedula)
+        public AdopcionController()
         {
-            Cliente cliente = Util.Utils.ListaCliente.Find(x => x.Cedula == Cedula);
-            if (cliente != null)
+            _httpClient = new HttpClient()
             {
-                return View(cliente);
-            }
+                BaseAddress = new Uri(_apiBaseUrl)
+            };
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var animal = await _httpClient.GetFromJsonAsync<Animal>($"api/Animal/{id}");
+            if (animal != null) return View(animal);
             return RedirectToAction("Index");
         }
 
-        // POST: ClienteController/Edit/5
         [HttpPost]
-        public IActionResult Edit(Cliente cliente)
+        public async Task<IActionResult> Edit(Animal animal)
         {
-            Cliente cliente2 = Util.Utils.ListaCliente.Find(x => x.Cedula == cliente.Cedula);
-            if (cliente2 != null)
-            {
-                cliente2.AnimalComprado = cliente.AnimalComprado;
-
-                return RedirectToAction("Index");
-            }
-            return View(cliente);
-
+            await _httpClient.PutAsJsonAsync($"api/Animal/{animal.Id}", animal);
+            return RedirectToAction("Index");
         }
-
 
 
 

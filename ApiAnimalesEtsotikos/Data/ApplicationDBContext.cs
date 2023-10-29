@@ -7,10 +7,12 @@ namespace ApiAnimalesEtsotikos.Data
     {
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options):base (options) { }
         public DbSet<Animal> Animal { get; set; }
-        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Cliente> Cliente { get; set; } 
+        public DbSet<Veterinario> Veterinario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
             modelBuilder.Entity<Animal>().HasData(
                 new Animal()
                 {
@@ -41,12 +43,27 @@ namespace ApiAnimalesEtsotikos.Data
             modelBuilder.Entity<Cliente>().HasData(
                 new Cliente()
                 {
-                    Id = 1,
+
                     Cedula = 1723124796,
                     Nombre = "Edwing",
-                    Direccion = "Conocoto"
-                }
+                    Direccion = "Conocoto",
+                    Password = "password",
+
+                   
+                }                
             );
+
+
+
+            modelBuilder.Entity<Veterinario>().HasData(
+              new Veterinario()
+              {
+                  NombreVeterinario = "Patitas del Saber",
+                  DireccionVeterinario = "cuba",
+                  TelefonoVeterinario = 00000
+              }
+            );
+
         }
     }
 }

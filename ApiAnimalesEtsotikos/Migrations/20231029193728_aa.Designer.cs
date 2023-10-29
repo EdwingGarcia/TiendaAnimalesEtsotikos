@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiAnimalesEtsotikos.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231025160433_a")]
-    partial class a
+    [Migration("20231029193728_aa")]
+    partial class aa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,14 +92,11 @@ namespace ApiAnimalesEtsotikos.Migrations
 
             modelBuilder.Entity("ApiAnimalesEtsotikos.Models.Cliente", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("Cedula")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Cedula")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Cedula"));
 
                     b.Property<string>("Direccion")
                         .IsRequired()
@@ -109,17 +106,46 @@ namespace ApiAnimalesEtsotikos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Cedula");
 
                     b.ToTable("Cliente");
 
                     b.HasData(
                         new
                         {
-                            Id = 1,
                             Cedula = 1723124796,
                             Direccion = "Conocoto",
-                            Nombre = "Edwing"
+                            Nombre = "Edwing",
+                            Password = "password"
+                        });
+                });
+
+            modelBuilder.Entity("ApiAnimalesEtsotikos.Models.Veterinario", b =>
+                {
+                    b.Property<string>("NombreVeterinario")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("DireccionVeterinario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TelefonoVeterinario")
+                        .HasColumnType("int");
+
+                    b.HasKey("NombreVeterinario");
+
+                    b.ToTable("Veterinario");
+
+                    b.HasData(
+                        new
+                        {
+                            NombreVeterinario = "Patitas del Saber",
+                            DireccionVeterinario = "cuba",
+                            TelefonoVeterinario = 0
                         });
                 });
 #pragma warning restore 612, 618

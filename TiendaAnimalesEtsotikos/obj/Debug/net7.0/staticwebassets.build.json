@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RwKvS/2cUFq+fv807+N6+N41pfBkwLpSYqS+b/Ynkf4=",
+  "Hash": "8Fu910UXpoXrwv4NPa6yA+0OufnAyrVvLY+WFiXuijU=",
   "Source": "TiendaAnimalesEtsotikos",
   "BasePath": "_content/TiendaAnimalesEtsotikos",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\cami.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\hamster.png",
+      "SourceId": "TiendaAnimalesEtsotikos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\",
+      "BasePath": "_content/TiendaAnimalesEtsotikos",
+      "RelativePath": "img/hamster.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hamster.png"
+    },
+    {
+      "Identity": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\memee.png",
+      "SourceId": "TiendaAnimalesEtsotikos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\",
+      "BasePath": "_content/TiendaAnimalesEtsotikos",
+      "RelativePath": "img/memee.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\memee.png"
     },
     {
       "Identity": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\nico.jpeg",

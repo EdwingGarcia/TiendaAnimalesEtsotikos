@@ -6,76 +6,61 @@ namespace TiendaAnimalesEtsotikos.Controllers
 {
     public class VeterinarioController : Controller
     {
-        // GET: veterinarioController
-        public IActionResult Index()
-        {
-            return View(Util.Utils.ListaVeterinario);
-        }
+        private readonly HttpClient _httpClient;
+        private readonly string _apiBaseUrl = "http://localhost:5198";
 
-        // GET: veterinarioController/Details/5
-        public IActionResult Details(string NombreVeterinario)
+        public VeterinarioController()
         {
-            Veterinario veterinario = Util.Utils.ListaVeterinario.Find(x => x.NombreVeterinario == NombreVeterinario);
-            if (veterinario != null)
+            _httpClient = new HttpClient()
             {
-                return View(veterinario);
-            }
-            return RedirectToAction("Index");
+                BaseAddress = new Uri(_apiBaseUrl)
+            };
         }
 
-        // GET: veterinarioController/Create
+        public async Task<IActionResult> Index()
+        {
+            var veterinarios = await _httpClient.GetFromJsonAsync<List<Veterinario>>("api/Veterinario");
+            return View(veterinarios);
+        }
+
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: veterinarioController/Create
         [HttpPost]
-        public IActionResult Create(Veterinario veterinario)
+        public async Task<IActionResult> Create(Veterinario veterinario)
         {
-            Util.Utils.ListaVeterinario.Add(veterinario);
+            await _httpClient.PostAsJsonAsync("api/Veterinario", veterinario);
             return RedirectToAction("Index");
         }
 
-
-        // GET: veterinarioController/Edit/5
-        public IActionResult Edit(string NombreVeterinario)
+        public async Task<IActionResult> Details(string NombreVeterinario)
         {
-            Veterinario veterinario = Util.Utils.ListaVeterinario.Find(x => x.NombreVeterinario == NombreVeterinario);
-            if (veterinario != null)
-            {
-                return View(veterinario);
-            }
+            var veterinario = await _httpClient.GetFromJsonAsync<Veterinario>($"api/Veterinario/{NombreVeterinario}");
+            if (veterinario != null) return View(veterinario);
             return RedirectToAction("Index");
         }
 
-        // POST: veterinarioController/Edit/5
+        public async Task<IActionResult> Edit(string NombreVeterinario)
+        {
+            var veterinario = await _httpClient.GetFromJsonAsync<Veterinario>($"api/Veterinario/{NombreVeterinario}");
+            if (veterinario != null) return View(veterinario);
+            return RedirectToAction("Index");
+        }
+
         [HttpPost]
-        public IActionResult Edit(Veterinario veterinario)
+        public async Task<IActionResult> Edit(Veterinario veterinario)
         {
-            Veterinario veterinario2 = Util.Utils.ListaVeterinario.Find(x => x.NombreVeterinario == veterinario.NombreVeterinario);
-            if (veterinario2 != null)
-            {
-                veterinario2.NombreVeterinario = veterinario.NombreVeterinario;
-                veterinario2.DireccionVeterinario = veterinario.DireccionVeterinario;
-                veterinario2.TelefonoVeterinario = veterinario.TelefonoVeterinario;
-
-                return RedirectToAction("Index");
-            }
-            return View(veterinario);
-
-        }
-
-        // GET: veterinarioController/Delete/5
-        public IActionResult Delete(string NombreVeterinario)
-        {
-            Veterinario veterinario = Util.Utils.ListaVeterinario.Find(x => x.NombreVeterinario == NombreVeterinario);
-            if (veterinario != null)
-            {
-                Util.Utils.ListaVeterinario.Remove(veterinario);
-                //return View();
-            }
+            await _httpClient.PutAsJsonAsync($"api/Veterinario/{veterinario.NombreVeterinario}", veterinario);
             return RedirectToAction("Index");
         }
+
+        public async Task<IActionResult> Delete(string NombreVeterinario)
+        {
+            await _httpClient.DeleteAsync($"api/Veterinario/{NombreVeterinario}");
+            return RedirectToAction("Index");
+        }
+
     }
 }
