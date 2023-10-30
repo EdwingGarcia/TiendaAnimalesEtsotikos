@@ -27,7 +27,7 @@ namespace ApiAnimalesEtsotikos.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-           List<Cliente> clientes=await _db.Cliente.ToListAsync();
+            List<Cliente> clientes = await _db.Cliente.ToListAsync();
             return Ok(clientes);
         }
 
@@ -35,8 +35,8 @@ namespace ApiAnimalesEtsotikos.Controllers
         [HttpGet("{Cedula}")]
         public async Task<IActionResult> Get(int Cedula)
         {
-            Cliente cliente=await _db.Cliente.FirstOrDefaultAsync(x=>x.Cedula==Cedula);
-            if(cliente != null)
+            Cliente cliente = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == Cedula);
+            if (cliente != null)
             {
                 return Ok(cliente);
             }
@@ -47,7 +47,7 @@ namespace ApiAnimalesEtsotikos.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Cliente cliente)
         {
-           Cliente cliente1 = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == cliente.Cedula);
+            Cliente cliente1 = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == cliente.Cedula);
             if (cliente1 == null && cliente != null)
             {
                 await _db.Cliente.AddAsync(cliente);
@@ -66,8 +66,8 @@ namespace ApiAnimalesEtsotikos.Controllers
             if (cliente1 != null)
             {
                 cliente1.Nombre = cliente.Nombre != null ? cliente.Nombre : cliente1.Nombre;
-               cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
-               
+                cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
+
 
                 _db.Cliente.Update(cliente1);
                 await _db.SaveChangesAsync();
@@ -81,7 +81,7 @@ namespace ApiAnimalesEtsotikos.Controllers
         [HttpDelete("{Cedula}")]
         public async Task<IActionResult> Delete(int Cedula)
         {
-            Cliente cliente= await _db.Cliente.FirstOrDefaultAsync(x=>x.Cedula== Cedula);
+            Cliente cliente = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == Cedula);
             if (cliente != null)
             {
                 _db.Cliente.Remove(cliente);
@@ -89,7 +89,7 @@ namespace ApiAnimalesEtsotikos.Controllers
                 return NoContent();
             }
             return BadRequest();
-    
+
         }
 
     }

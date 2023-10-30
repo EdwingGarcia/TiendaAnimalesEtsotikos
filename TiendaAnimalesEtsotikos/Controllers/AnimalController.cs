@@ -5,27 +5,27 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using TiendaAnimalesEtsotikos.Models;
+using TiendaAnimalesEtsotikos.Services;
 
 namespace TiendaAnimalesEtsotikos.Controllers
 {
     public class AnimalController : Controller
     {
-        private readonly HttpClient _httpClient;
-        private readonly string _apiBaseUrl = "http://localhost:5198";
+        private readonly IAnimalService _animalService;
 
-        public AnimalController()
+        public AnimalController(IAnimalService productoService)
         {
-            _httpClient = new HttpClient()
-            {
-                BaseAddress = new Uri(_apiBaseUrl)
-            };
+            _animalService = productoService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var animales = await _httpClient.GetFromJsonAsync<List<Animal>>("api/Animal");
+            var animales = await _animalService.GetAllAnimales();
             return View(animales);
         }
+
+
+
 
         public IActionResult Create()
         {
@@ -35,46 +35,45 @@ namespace TiendaAnimalesEtsotikos.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Animal animal)
         {
-            await _httpClient.PostAsJsonAsync("api/Animal", animal);
+            await _animalService.CreateAnimal(animal);
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int Id)
         {
-            var animal = await _httpClient.GetFromJsonAsync<Animal>($"api/Animal/{id}");
+            var animal = await _animalService.GetAnimal(Id);
             if (animal != null) return View(animal);
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Edit(int id)
+
+        public async Task<IActionResult> Edit(int Id)
         {
-            var animal = await _httpClient.GetFromJsonAsync<Animal>($"api/Animal/{id}");
+            var animal = await _animalService.GetAnimal(Id);
             if (animal != null) return View(animal);
             return RedirectToAction("Index");
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Animal animal)
+        public async Task<IActionResult> Edit(int Id, Animal animal)
         {
-            await _httpClient.PutAsJsonAsync($"api/Animal/{animal.Id}", animal);
+            await _animalService.UpdateAnimal(Id, animal);
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Delete(int id)
+        public IActionResult Delete(int Id)
         {
-            await _httpClient.DeleteAsync($"api/Animal/{id}");
+            _animalService.DeleteAnimal(Id);
             return RedirectToAction("Index");
         }
 
         [HttpGet("BuscarPorPropietario")]
         public async Task<IActionResult> BuscarPorPropietario(int Propietario)
         {
-            if(Propietario != 0) {
-                var response = await _httpClient.GetFromJsonAsync<List<Animal>>($"api/Animal/GetAnimalesPorCedula/{Propietario}");
-                if (response != null)
-                {
-                    return View("Index", response);
-                }
+            var response = await _animalService.BuscarPorPropietario(Propietario);
+            if (response != null)
+            {
+                return View("Index", response);
             }
             return RedirectToAction("Index");
         }

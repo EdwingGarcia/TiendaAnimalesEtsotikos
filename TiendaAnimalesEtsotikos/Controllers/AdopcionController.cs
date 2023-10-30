@@ -7,12 +7,6 @@ namespace TiendaAnimalesEtsotikos.Controllers
 {
     public class AdopcionController : Controller
     {
-        // GET: AdopcionController
-        public IActionResult Index()
-        {
-            return View(Util.Utils.ListaCliente);
-        }
-
         private readonly HttpClient _httpClient;
         private readonly string _apiBaseUrl = "http://localhost:5198";
 
@@ -24,19 +18,16 @@ namespace TiendaAnimalesEtsotikos.Controllers
             };
         }
 
-        public async Task<IActionResult> Edit(int id)
+
+        public async Task<IActionResult> Index()
         {
-            var animal = await _httpClient.GetFromJsonAsync<Animal>($"api/Animal/{id}");
-            if (animal != null) return View(animal);
-            return RedirectToAction("Index");
+            var animales = await _httpClient.GetFromJsonAsync<List<Animal>>("api/Animal");
+            var animalesConPropietario = animales.Where(a => a.Propietario == null).ToList();
+            return View(animalesConPropietario);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Edit(Animal animal)
-        {
-            await _httpClient.PutAsJsonAsync($"api/Animal/{animal.Id}", animal);
-            return RedirectToAction("Index");
-        }
+
+
 
 
 

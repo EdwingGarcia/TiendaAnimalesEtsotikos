@@ -1,28 +1,28 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TiendaAnimalesEtsotikos.Models;
-using TiendaAnimalesEtsotikos.Util;
+using TiendaAnimalesEtsotikos.Services;
+
 
 namespace TiendaAnimalesEtsotikos.Controllers
 {
     public class ClienteController : Controller
     {
-        private readonly HttpClient _httpClient;
-        private readonly string _apiBaseUrl = "http://localhost:5198";
+        private readonly IClienteService _clienteService;
 
-        public ClienteController()
+        public ClienteController(IClienteService clienteService)
         {
-            _httpClient = new HttpClient()
-            {
-                BaseAddress = new Uri(_apiBaseUrl)
-            };
+            _clienteService = clienteService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var clientes = await _httpClient.GetFromJsonAsync<List<Cliente>>("api/Cliente");
+            var clientes = await _clienteService.GetAllClientes();
             return View(clientes);
         }
+
+
+
 
         public IActionResult Create()
         {
@@ -32,39 +32,40 @@ namespace TiendaAnimalesEtsotikos.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Cliente cliente)
         {
-            await _httpClient.PostAsJsonAsync("api/Cliente", cliente);
+            await _clienteService.CreateCliente(cliente);
             return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Details(int Cedula)
         {
-            var cliente = await _httpClient.GetFromJsonAsync<Cliente>($"api/Cliente/{Cedula}");
+            var cliente = await _clienteService.GetCliente(Cedula);
             if (cliente != null) return View(cliente);
             return RedirectToAction("Index");
         }
 
+
         public async Task<IActionResult> Edit(int Cedula)
         {
-            var cliente = await _httpClient.GetFromJsonAsync<Cliente>($"api/Cliente/{Cedula}");
+            var cliente = await _clienteService.GetCliente(Cedula);
             if (cliente != null) return View(cliente);
             return RedirectToAction("Index");
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Cliente cliente)
+        public async Task<IActionResult> Edit(int Cedula, Cliente cliente)
         {
-            await _httpClient.PutAsJsonAsync($"api/Cliente/{cliente.Cedula}",cliente);
+            await _clienteService.UpdateCliente(Cedula, cliente);
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Delete(int Cedula)
+        public IActionResult Delete(int Cedula)
         {
-            await _httpClient.DeleteAsync($"api/Cliente/{Cedula}");
+            _clienteService.DeleteCliente(Cedula);
             return RedirectToAction("Index");
         }
 
 
-     
+
 
     }
 }

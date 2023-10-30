@@ -47,7 +47,7 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         // POST api/<AnimalController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]Veterinario veterinario)
+        public async Task<IActionResult> Post([FromBody] Veterinario veterinario)
         {
             Veterinario veterinario1 = await _db.Veterinario.FirstOrDefaultAsync(x => x.NombreVeterinario == veterinario.NombreVeterinario);
             if (veterinario1 == null && veterinario != null)

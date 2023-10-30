@@ -7,9 +7,9 @@ namespace ApiAnimalesEtsotikos.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Nombre { get; set;}
-        public string NombreCientifico {  get; set; }
-        public string PaisOrigen {  get; set; }
+        public string Nombre { get; set; }
+        public string NombreCientifico { get; set; }
+        public string PaisOrigen { get; set; }
         public float Altura { get; set; }
         public float Peso { get; set; }
         [Required]

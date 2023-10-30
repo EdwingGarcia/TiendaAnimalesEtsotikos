@@ -11,6 +11,6 @@ namespace ApiAnimalesEtsotikos.Models
         public string Nombre { get; set; }
         public string Direccion { get; set; }
         public string Password { get; set; }
-       // public List<int> AnimalComprado { get; set; } //Id animal
+       // public  int? AnimalComprado { get; set; } //Id animal
     }
 }
