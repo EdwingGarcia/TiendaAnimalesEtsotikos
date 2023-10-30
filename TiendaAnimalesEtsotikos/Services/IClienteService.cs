@@ -10,7 +10,7 @@ namespace TiendaAnimalesEtsotikos.Services
         Task<Cliente> CreateCliente(Cliente cliente);
         Task<Cliente> UpdateCliente(string Cedula, Cliente cliente);
         void DeleteCliente(string Cedula);
-
+        Task<List<Cliente>> BuscarCedula(string Cedula);
 
 
 

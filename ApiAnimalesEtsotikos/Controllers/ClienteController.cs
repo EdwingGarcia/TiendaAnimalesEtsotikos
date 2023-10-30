@@ -92,5 +92,21 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         }
 
+
+
+
+        [HttpGet("BuscarCedula/{Cedula}")]
+        public async Task<ActionResult<List<Cliente>>> BuscarCedula(string Cedula)
+        {
+            var clientes = await _db.Cliente.Where(a => a.Cedula == Cedula).ToListAsync();
+
+            if (clientes == null || clientes.Count == 0)
+            {
+                return NotFound("No se encontraron animales para esta cédula.");
+            }
+
+            return Ok(clientes);
+        }
+
     }
 }

@@ -64,7 +64,16 @@ namespace TiendaAnimalesEtsotikos.Controllers
             return RedirectToAction("Index");
         }
 
-
+        [HttpGet("BuscarCedula")]
+        public async Task<IActionResult> BuscarCedula(string Cedula)
+        {
+            var response = await _clienteService.BuscarCedula(Cedula);
+            if (response != null)
+            {
+                return View("Index", response);
+            }
+            return RedirectToAction("Index");
+        }
 
 
     }

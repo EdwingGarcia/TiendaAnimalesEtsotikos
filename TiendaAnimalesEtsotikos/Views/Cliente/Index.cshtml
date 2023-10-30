@@ -6,7 +6,14 @@
 <h1>@ViewData["Title"]</h1>
 
 <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Cliente")'">Ingresar un cliente</button>
-
+<form asp-controller="Cliente" asp-action="BuscarCedula" method="get" class="my-4">
+    <div class="input-group">
+        <input type="text" name="Cedula" class="form-control" placeholder="Buscar por propietario">
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-success">Buscar</button>
+        </div>
+    </div>
+</form>
 <p>Listado de nuestros clientes. Como administrador, usted puede ingresar, editar, visualizar y borrar clientes.</p>
 
 

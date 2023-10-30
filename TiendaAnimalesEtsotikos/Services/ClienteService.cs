@@ -51,5 +51,16 @@ namespace TiendaAnimalesEtsotikos.Services
         }
 
 
+ 
+
+
+
+        public async Task<List<Cliente>> BuscarCedula(string Cedula)
+        {
+                var response = await _httpClient.GetFromJsonAsync<List<Cliente>>($"api/Cliente/BuscarCedula/{Cedula}");
+               return response;
+
+        }
+
     }
 }
