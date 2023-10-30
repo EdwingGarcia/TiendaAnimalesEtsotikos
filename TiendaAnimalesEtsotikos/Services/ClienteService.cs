@@ -26,7 +26,7 @@ namespace TiendaAnimalesEtsotikos.Services
 
 
 
-        public async Task<Cliente> GetCliente(int Cedula) { 
+        public async Task<Cliente> GetCliente(string Cedula) { 
             var response = await _httpClient.GetFromJsonAsync<Cliente>($"api/Cliente/{Cedula}");
             return response;
         }
@@ -38,13 +38,14 @@ namespace TiendaAnimalesEtsotikos.Services
             return await response.Content.ReadFromJsonAsync<Cliente>();
         }
 
-        public async Task<Cliente> UpdateCliente(int Cedula, Cliente cliente)
+        public async Task<Cliente> UpdateCliente(string Cedula, Cliente cliente)
         {
+            cliente.Password = string.Empty;
             var response = await _httpClient.PutAsJsonAsync($"api/Cliente/{Cedula}", cliente);
             return await response.Content.ReadFromJsonAsync<Cliente>();
         }
 
-        public async void DeleteCliente(int Cedula)
+        public async void DeleteCliente(string Cedula)
         {
             _httpClient.DeleteAsync($"api/Cliente/{Cedula}");
         }

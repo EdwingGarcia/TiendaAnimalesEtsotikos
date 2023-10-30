@@ -9,7 +9,7 @@ namespace TiendaAnimalesEtsotikos.Services
         Task<Animal> GetAnimal(int Id);
         Task<Animal> CreateAnimal(Animal animal);
         Task<Animal> UpdateAnimal(int Id, Animal animal);
-        void DeleteAnimal(int Id);
+        Task DeleteAnimal(int Id);
         Task<List<Animal>> BuscarPorPropietario(int Propietario);
 
 

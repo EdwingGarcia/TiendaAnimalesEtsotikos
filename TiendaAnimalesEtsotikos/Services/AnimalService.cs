@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using TiendaAnimalesEtsotikos.Models;
-using TiendaAnimalesEtsotikos.Services;
 
 namespace TiendaAnimalesEtsotikos.Services
 {
@@ -24,8 +24,6 @@ namespace TiendaAnimalesEtsotikos.Services
             return response;
         }
 
-
-
         public async Task<Animal> GetAnimal(int Id)
         {
             var response = await _httpClient.GetFromJsonAsync<Animal>($"api/Animal/{Id}");
@@ -34,9 +32,10 @@ namespace TiendaAnimalesEtsotikos.Services
 
         public async Task<Animal> CreateAnimal(Animal animal)
         {
-
             var response = await _httpClient.PostAsJsonAsync("api/Animal", animal);
-            return await response.Content.ReadFromJsonAsync<Animal>();
+            Console.WriteLine(response.Content.ReadAsStringAsync());
+            if(response!=null) { return await response.Content.ReadFromJsonAsync<Animal>(); }return null;
+
         }
 
         public async Task<Animal> UpdateAnimal(int Id, Animal animal)
@@ -45,22 +44,25 @@ namespace TiendaAnimalesEtsotikos.Services
             return await response.Content.ReadFromJsonAsync<Animal>();
         }
 
-        public async void DeleteAnimal(int Id)
+        public async Task DeleteAnimal(int Id)
         {
-            _httpClient.DeleteAsync($"api/Animal/{Id}");
+            var response = await _httpClient.DeleteAsync($"api/Animal/{Id}");
+            response.EnsureSuccessStatusCode();
         }
 
-
-        [HttpGet("BuscarPorPropietario")]
         public async Task<List<Animal>> BuscarPorPropietario(int Propietario)
         {
             if (Propietario != 0)
             {
-
                 var response = await _httpClient.GetFromJsonAsync<List<Animal>>($"api/Animal/GetAnimalesPorCedula/{Propietario}");
                 return response;
             }
-            return null;
+            else
+            {
+                // Considera lanzar una excepción o devolver un código de estado HTTP apropiado aquí
+                // en lugar de devolver null.
+                throw new ArgumentException("Propietario no válido.");
+            }
         }
     }
 }

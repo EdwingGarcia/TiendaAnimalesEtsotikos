@@ -13,9 +13,9 @@ namespace TiendaAnimalesEtsotikos.Controllers
     {
         private readonly IAnimalService _animalService;
 
-        public AnimalController(IAnimalService productoService)
+        public AnimalController(IAnimalService animalService)
         {
-            _animalService = productoService;
+            _animalService = animalService;
         }
 
         public async Task<IActionResult> Index()

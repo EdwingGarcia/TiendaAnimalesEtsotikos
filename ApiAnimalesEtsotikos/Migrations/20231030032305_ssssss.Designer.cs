@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiAnimalesEtsotikos.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231030012250_a")]
-    partial class a
+    [Migration("20231030032305_ssssss")]
+    partial class ssssss
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,15 +64,36 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Animal");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Altura = 6.5f,
+                            Enfermedad = "Sin un ojo",
+                            Nombre = "DODO",
+                            NombreCientifico = "popo",
+                            PaisOrigen = "Sudamérica del Norte",
+                            Peso = 54f,
+                            Status = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Altura = 2.4f,
+                            Enfermedad = "tos",
+                            Nombre = "perro",
+                            NombreCientifico = "pipi",
+                            PaisOrigen = "Norteamérica del Sur",
+                            Peso = 22f,
+                            Status = 1
+                        });
                 });
 
             modelBuilder.Entity("ApiAnimalesEtsotikos.Models.Cliente", b =>
                 {
-                    b.Property<int>("Cedula")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Cedula"));
+                    b.Property<string>("Cedula")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Direccion")
                         .IsRequired()
@@ -89,6 +110,15 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.HasKey("Cedula");
 
                     b.ToTable("Cliente");
+
+                    b.HasData(
+                        new
+                        {
+                            Cedula = "123",
+                            Direccion = "Conocoto",
+                            Nombre = "Edwing",
+                            Password = "123"
+                        });
                 });
 
             modelBuilder.Entity("ApiAnimalesEtsotikos.Models.Veterinario", b =>
@@ -106,6 +136,14 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.HasKey("NombreVeterinario");
 
                     b.ToTable("Veterinario");
+
+                    b.HasData(
+                        new
+                        {
+                            NombreVeterinario = "Patitas del Saber",
+                            DireccionVeterinario = "cuba",
+                            TelefonoVeterinario = 0
+                        });
                 });
 #pragma warning restore 612, 618
         }

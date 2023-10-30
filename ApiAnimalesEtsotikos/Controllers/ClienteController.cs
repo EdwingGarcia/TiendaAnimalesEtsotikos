@@ -33,7 +33,7 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         // GET api/<ClienteController>/5
         [HttpGet("{Cedula}")]
-        public async Task<IActionResult> Get(int Cedula)
+        public async Task<IActionResult> Get(string Cedula)
         {
             Cliente cliente = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == Cedula);
             if (cliente != null)
@@ -52,7 +52,7 @@ namespace ApiAnimalesEtsotikos.Controllers
             {
                 await _db.Cliente.AddAsync(cliente);
                 await _db.SaveChangesAsync();
-                return Ok();
+                return Ok(cliente);
             }
             return BadRequest("El objeto no existe");
         }
@@ -60,9 +60,9 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         // PUT api/<AnimalController>/5
         [HttpPut("{Cedula}")]
-        public async Task<IActionResult> Put(int Cedula, [FromBody] Cliente cliente)
+        public async Task<IActionResult> Put(string Cedula, [FromBody] Cliente cliente)
         {
-            Cliente cliente1 = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == cliente.Cedula);
+            Cliente cliente1 = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == Cedula);
             if (cliente1 != null)
             {
                 cliente1.Nombre = cliente.Nombre != null ? cliente.Nombre : cliente1.Nombre;
@@ -79,7 +79,7 @@ namespace ApiAnimalesEtsotikos.Controllers
 
         // DELETE api/<ClienteController>/5
         [HttpDelete("{Cedula}")]
-        public async Task<IActionResult> Delete(int Cedula)
+        public async Task<IActionResult> Delete(string Cedula)
         {
             Cliente cliente = await _db.Cliente.FirstOrDefaultAsync(x => x.Cedula == Cedula);
             if (cliente != null)

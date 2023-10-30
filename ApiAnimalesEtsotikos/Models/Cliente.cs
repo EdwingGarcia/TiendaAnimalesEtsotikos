@@ -6,7 +6,7 @@ namespace ApiAnimalesEtsotikos.Models
     public class Cliente
     {
         [Key]
-        public int Cedula { get; set; }
+        public string Cedula { get; set; }
         [Required]
         public string Nombre { get; set; }
         public string Direccion { get; set; }

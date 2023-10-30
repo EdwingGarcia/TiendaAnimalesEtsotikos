@@ -44,7 +44,6 @@ namespace ApiAnimalesEtsotikos.Controllers
 
 
 
-
         // POST api/<AnimalController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Animal animal)
@@ -54,7 +53,7 @@ namespace ApiAnimalesEtsotikos.Controllers
             {
                 await _db.Animal.AddAsync(animal);
                 await _db.SaveChangesAsync();
-                return Ok();
+                return Ok(animal);
             }
             return BadRequest("El objeto no existe");
         }

@@ -1,4 +1,5 @@
-﻿@model Cliente
+﻿
+@model Cliente 
 @{
     ViewData["Title"] = "Ingresar cliente";
 }
@@ -7,9 +8,9 @@
 <p>Ingrese un nuevo cliente.</p>
 
 <form method="post">
-
+    
     <div class="mb-3">
-        <label>Cedula</label>
+        <label >Cedula</label>
         <input asp-for="Cedula" class="form-control">
     </div>
     <div class="mb-3">
@@ -24,17 +25,17 @@
         <label>Dirección</label>
         <input asp-for="Direccion" class="form-control">
     </div>
-
+    
 
     <div class="row col-6">
-        <div class="col-6 m-auto">
+        <div class="col-6 m-auto" >
             <button type="submit" class="btn btn-primary">Guardar</button>
         </div>
         <div class="col-6 m-auto">
             <a asp-action="Index" class="btn btn-outline-primary">Regresar</a>
         </div>
     </div>
-
+   
 </form>
 
 

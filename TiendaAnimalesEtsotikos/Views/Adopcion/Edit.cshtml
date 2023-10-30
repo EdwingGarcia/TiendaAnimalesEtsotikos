@@ -9,16 +9,16 @@
 <form method="post">
 
     <div class="mb-3">
-        <label>Id</label>
-        <input asp-for="Id" class="form-control" disabled>
+        <label>Cedula</label>
+        <input asp-for="Propietario" class="form-control" disabled>
     </div>
     <div class="mb-3">
-        <label>Nombre Animal</label>
+        <label>Nombre</label>
         <input asp-for="Nombre" class="form-control" disabled>
     </div>
     <div class="mb-3">
-        <label>Propietario</label>
-        <input asp-for="Propietario" class="form-control">
+        <label>Animal comprado</label>
+        <input asp-for="Id" class="form-control" >
     </div>
 
 
@@ -27,7 +27,7 @@
             <button type="submit" class="btn btn-primary">Guardar</button>
         </div>
         <div class="col-6 m-auto">
-            <a  asp-action="Index" class="btn btn-outline-primary">Regresar</a>
+            <a asp-action="Index" class="btn btn-outline-primary">Regresar</a>
         </div>
     </div>
 

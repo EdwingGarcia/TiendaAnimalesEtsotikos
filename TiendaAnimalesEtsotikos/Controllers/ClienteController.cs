@@ -36,7 +36,7 @@ namespace TiendaAnimalesEtsotikos.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Details(int Cedula)
+        public async Task<IActionResult> Details(string Cedula)
         {
             var cliente = await _clienteService.GetCliente(Cedula);
             if (cliente != null) return View(cliente);
@@ -44,7 +44,7 @@ namespace TiendaAnimalesEtsotikos.Controllers
         }
 
 
-        public async Task<IActionResult> Edit(int Cedula)
+        public async Task<IActionResult> Edit(string Cedula)
         {
             var cliente = await _clienteService.GetCliente(Cedula);
             if (cliente != null) return View(cliente);
@@ -52,13 +52,13 @@ namespace TiendaAnimalesEtsotikos.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int Cedula, Cliente cliente)
+        public async Task<IActionResult> Edit(string Cedula, Cliente cliente)
         {
-            await _clienteService.UpdateCliente(Cedula, cliente);
+            var response= await _clienteService.UpdateCliente(Cedula, cliente);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(int Cedula)
+        public IActionResult Delete(string Cedula)
         {
             _clienteService.DeleteCliente(Cedula);
             return RedirectToAction("Index");

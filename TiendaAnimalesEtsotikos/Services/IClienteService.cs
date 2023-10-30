@@ -6,10 +6,10 @@ namespace TiendaAnimalesEtsotikos.Services
     public interface IClienteService
     {
         Task<List<Cliente>> GetAllClientes();
-        Task<Cliente> GetCliente(int Cedula);
+        Task<Cliente> GetCliente(string Cedula);
         Task<Cliente> CreateCliente(Cliente cliente);
-        Task<Cliente> UpdateCliente(int Cedula, Cliente cliente);
-        void DeleteCliente(int Cedula);
+        Task<Cliente> UpdateCliente(string Cedula, Cliente cliente);
+        void DeleteCliente(string Cedula);
 
 
 

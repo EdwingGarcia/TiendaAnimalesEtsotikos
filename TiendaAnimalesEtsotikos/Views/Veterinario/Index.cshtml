@@ -23,27 +23,26 @@
 
         </tr>
     </thead>
-
+   
     <tbody>
-        @foreach (var Item in Model)
-        {
-            <tr>
-                <td>@Item.NombreVeterinario</td>
-                <td>@Item.DireccionVeterinario</td>
-                <td>@Item.TelefonoVeterinario</td>
+        @foreach(var Item in Model){
+        <tr>
+            <td>@Item.NombreVeterinario</td>
+            <td>@Item.DireccionVeterinario</td>
+            <td>@Item.TelefonoVeterinario</td>
 
 
-                <td>
+            <td>
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <a type="button" asp-action="Delete" asp-route-NombreVeterinario="@Item.NombreVeterinario" class="btn btn-warning"><i class="bi bi-trash-fill"></i></a>
                         <a type="button" asp-action="Edit" asp-route-NombreVeterinario="@Item.NombreVeterinario" class="btn btn-info"><i class="bi bi-pencil-square"></i></a>
                         <a type="button" asp-action="Details" asp-route-NombreVeterinario="@Item.NombreVeterinario" class="btn btn-danger"><i class="bi bi-eye-fill"></i></a>
                     </div>
+               
+             </td>
 
-                </td>
-
-            </tr>
+        </tr>
         }
-
+        
     </tbody>
 </table>

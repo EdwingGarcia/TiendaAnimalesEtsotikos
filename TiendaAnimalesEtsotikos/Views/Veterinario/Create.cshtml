@@ -1,4 +1,5 @@
-﻿@model Veterinario
+﻿
+@model Veterinario 
 @{
     ViewData["Title"] = "Ingresar una veterinaria";
 }
@@ -7,9 +8,9 @@
 <p>Ingrese una nueva clínica veterinaria.</p>
 
 <form method="post">
-
+    
     <div class="mb-3">
-        <label>Nombre de la veterinaria</label>
+        <label >Nombre de la veterinaria</label>
         <input asp-for="NombreVeterinario" class="form-control">
     </div>
     <div class="mb-3">
@@ -22,14 +23,14 @@
     </div>
 
     <div class="row col-6">
-        <div class="col-6 m-auto">
+        <div class="col-6 m-auto" >
             <button type="submit" class="btn btn-primary">Guardar</button>
         </div>
         <div class="col-6 m-auto">
             <a asp-action="Index" class="btn btn-outline-primary">Regresar</a>
         </div>
     </div>
-
+   
 </form>
 
 
