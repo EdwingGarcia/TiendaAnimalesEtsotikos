@@ -8,7 +8,7 @@ namespace TiendaAnimalesEtsotikos.Services
     public class AnimalService : IAnimalService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _url = "http://localhost:5198";
+        private readonly string _url = "https://apianimalesadopcion.azurewebsites.net";
 
         public AnimalService()
         {
@@ -32,6 +32,8 @@ namespace TiendaAnimalesEtsotikos.Services
 
         public async Task<Animal> CreateAnimal(Animal animal)
         {
+            animal.Status = 0;
+            animal.Propietario="";
             var response = await _httpClient.PostAsJsonAsync("api/Animal", animal);
             Console.WriteLine(response.Content.ReadAsStringAsync());
             if(response!=null) { return await response.Content.ReadFromJsonAsync<Animal>(); }return null;

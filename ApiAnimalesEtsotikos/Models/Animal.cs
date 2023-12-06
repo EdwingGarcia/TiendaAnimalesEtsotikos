@@ -13,11 +13,12 @@ namespace ApiAnimalesEtsotikos.Models
         public float Altura { get; set; }
         public float Peso { get; set; }
         [Required]
-        public int Status { get; set; } //  NoComprado=0 Comprado=1 Internado=2
+        public int Status { get; set; } // NoAdoptado=0   SolicitudAdopcionPendiente=1 AdopcionAprobada=2 
         public string Enfermedad { get; set; }
-        public int? Propietario { get; set; }//Cedula Propietario
+        public string? Propietario { get; set; }
+        public string Img { get; set; }
 
 
 
     }
-}
+} 

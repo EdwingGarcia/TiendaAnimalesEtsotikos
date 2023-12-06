@@ -7,7 +7,10 @@
 <p>En esta pagina podrá editar los datos de cualquier animal.</p>
 
 <form method="post">
-
+    <div class="mb-3" >
+        <label>Id</label> 
+        <input asp-for="Id" class="form-control" disable>
+    </div>
     <div class="mb-3">
         <label>Nombre</label>
         <input asp-for="Nombre" class="form-control">
@@ -38,7 +41,11 @@
     </div>
     <div class="mb-3">
         <label>Propietario</label>
-        <input asp-for="Propietario" class="form-control">
+        <input asp-for="Propietario" class="form-control" disable>
+    </div>
+     <div class="mb-3">
+        <label>Img</label>
+        <input asp-for="Img" class="form-control">
     </div>
 
     <div class="row col-6">
@@ -48,7 +55,8 @@
         <div class="col-6 m-auto">
             <a asp-action="Index" class="btn btn-outline-primary">Regresar</a>
         </div>
-    </div>
+    </div
+
 
 </form>
 

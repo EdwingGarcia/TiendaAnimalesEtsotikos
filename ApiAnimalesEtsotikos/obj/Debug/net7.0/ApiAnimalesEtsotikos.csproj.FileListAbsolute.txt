@@ -74,3 +74,4 @@ C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotik
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\ApiAnimalesEtsotikos\obj\Debug\net7.0\ApiAnimalesEtsotikos.pdb
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\ApiAnimalesEtsotikos\obj\Debug\net7.0\ApiAnimalesEtsotikos.genruntimeconfig.cache
 C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\ApiAnimalesEtsotikos\obj\Debug\net7.0\ref\ApiAnimalesEtsotikos.dll
+C:\Users\nicko\Documents\Quinto\Programación IV\Proyectos\TiendaAnimalesEtsotikos\ApiAnimalesEtsotikos\obj\Debug\net7.0\ApiAnimalesEtsotikos.sourcelink.json

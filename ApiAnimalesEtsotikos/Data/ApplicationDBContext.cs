@@ -12,20 +12,9 @@ namespace ApiAnimalesEtsotikos.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+
             modelBuilder.Entity<Animal>().HasData(
-                new Animal()
-                {
-                    Id = 1,
-                    Nombre = "DODO",
-                    NombreCientifico = "popo",
-                    PaisOrigen = "Sudamérica del Norte",
-                    Altura = 6.5f,
-                    Peso = 54,
-                    Status = 0,
-                    Enfermedad = "Sin un ojo",
-                    Propietario = null
-                },
+
                 new Animal()
                 {
                     Id = 2,
@@ -36,9 +25,10 @@ namespace ApiAnimalesEtsotikos.Data
                     Peso = 22,
                     Status = 1,
                     Enfermedad = "tos",
-                    Propietario = null
+                    Propietario = "",
+                    Img = "https://as01.epimg.net/diarioas/imagenes/2022/05/29/actualidad/1653826510_995351_1653826595_noticia_normal_recorte1.jpg"
                 }
-            );
+            ); 
 
             modelBuilder.Entity<Cliente>().HasData(
                 new Cliente()

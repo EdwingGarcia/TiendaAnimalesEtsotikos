@@ -1,12 +1,11 @@
 ﻿@model List<Animal>
 
 @{
-    ViewData["Title"] = "Lista de clientes y sus animales";
+    ViewData["Title"] = "Gestión Solicitud Adopción";
 }
 <h1>@ViewData["Title"]</h1>
 
 
-<p>Listado de nuestros clientes. Como administrador, usted puede registar los animales adoptados por cada cliente.</p>
 
 
 
@@ -14,9 +13,9 @@
 <table class="table">
     <thead class="thead-dark">
         <tr>
-            <th scope="col">Propietario</th>
-            <th scope="col">Nombre</th>
             <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Propietario</th>
             <th scope="col">Acciones</th>
 
 
@@ -26,13 +25,16 @@
     <tbody>
         @foreach(var Item in Model){
         <tr>
+                <td>@Item.Id</td>
+                <td>@Item.Nombre</td>
             <td>@Item.Propietario</td>
-            <td>@Item.Nombre</td>
-            <td>@Item.Id</td>
+           
 
             <td>
                     <div class="btn-group" role="group" aria-label="Basic example">
-                        <a type="button" asp-controller="Animal" asp-action="Edit" asp-route-Id="@Item.Id"  class="btn btn-info"><i class="bi bi-pencil-square"></i></a>
+                        <a type="button" asp-controller="Adopcion" asp-action="Edit" asp-route-Id="@Item.Id"  class="btn btn-info"><i class="bi bi-pencil-square"></i></a>
+                        <a type="button" asp-controller="Adopcion" asp-action="Aprobar" asp-route-Id="@Item.Id" class="btn btn-success"><i class="bi bi-check-square"></i> </a>
+                        <a type="button" asp-controller="Adopcion" asp-action="Rechazar" asp-route-Id="@Item.Id" class="btn btn-danger"><i class="bi bi-x-square"></i></a>
                     </div>
                
              </td>

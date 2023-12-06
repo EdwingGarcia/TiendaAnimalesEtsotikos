@@ -8,7 +8,7 @@ namespace TiendaAnimalesEtsotikos.Services
     public class VeterinarioService : IVeterinarioService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _url = "http://localhost:5198";
+        private readonly string _url = "https://apianimalesadopcion.azurewebsites.net";
 
         public VeterinarioService()
         {

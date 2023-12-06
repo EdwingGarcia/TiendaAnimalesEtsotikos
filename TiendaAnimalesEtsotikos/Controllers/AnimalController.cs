@@ -49,8 +49,11 @@ namespace TiendaAnimalesEtsotikos.Controllers
 
         public async Task<IActionResult> Edit(int Id)
         {
+            
             var animal = await _animalService.GetAnimal(Id);
+
             if (animal != null) return View(animal);
+
             return RedirectToAction("Index");
         }
 

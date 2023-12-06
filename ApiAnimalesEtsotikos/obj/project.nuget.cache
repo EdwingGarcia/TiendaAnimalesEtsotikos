@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cdu5Bsn+tCbnF2JuvpylBYrXq1pnpHZQXTD79xy/ujTx+72eSFCLiO0/MnJkzRZJX/DC80PiHHpG0FEnBks6WQ==",
+  "dgSpecHash": "gFb8VglGnPgKyyX3csdQkLl1ZdMTN1cUDgf6rVLMT5jHO2mQtcHN5Fzqq4VT+q6TN7BLihNZzAqo24dK2fqWBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\ApiAnimalesEtsotikos\\ApiAnimalesEtsotikos.csproj",
   "expectedPackageFiles": [
@@ -15,10 +15,10 @@
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.12\\microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
-    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.12\\microsoft.entityframeworkcore.design.7.0.12.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.10\\microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.12\\microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.12\\microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
-    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.12\\microsoft.entityframeworkcore.tools.7.0.12.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.10\\microsoft.entityframeworkcore.tools.7.0.10.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
@@ -70,7 +70,11 @@
     "C:\\Users\\nicko\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\nicko\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\nicko\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\nicko\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nicko\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

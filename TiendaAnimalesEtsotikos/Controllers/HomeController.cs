@@ -8,7 +8,7 @@ namespace TiendaAnimalesEtsotikos.Controllers
     public class HomeController : Controller
     {
         private readonly HttpClient _httpClient;
-        private readonly string _apiBaseUrl = "http://localhost:5198";
+        private readonly string _apiBaseUrl = "https://apianimalesadopcion.azurewebsites.net";
 
 
 
