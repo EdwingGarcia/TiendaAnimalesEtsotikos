@@ -3,6 +3,16 @@
 @{
     ViewData["Title"] = "Lista de veterinarias";
 }
+
+
+
+<style>
+    .fixed-top {
+        position: relative !important
+    }
+</style>
+
+
 <h1>@ViewData["Title"]</h1>
 
 <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Veterinario")'">Ingresar una clinica</button>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj": {}
+    "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj": {
+    "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj",
+        "projectUniqueName": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj",
         "projectName": "TiendaAnimalesEtsotikos",
-        "projectPath": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj",
+        "projectPath": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos.csproj",
         "packagesPath": "C:\\Users\\nicko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\obj\\",
+        "outputPath": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,11 +47,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

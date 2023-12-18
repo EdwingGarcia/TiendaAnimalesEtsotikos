@@ -3,7 +3,17 @@
 @{
     ViewData["Title"] = "Lista de clientes";
 }
+
+
+
 <h1>@ViewData["Title"]</h1>
+
+
+<style>
+    .fixed-top{
+        position:relative!important
+    }
+ </style>
 
 <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Cliente")'">Ingresar un cliente</button>
 <form asp-controller="Cliente" asp-action="BuscarCedula" method="get" class="my-4">

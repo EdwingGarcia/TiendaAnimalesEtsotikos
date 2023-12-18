@@ -16,7 +16,7 @@ namespace ApiAnimalesEtsotikos.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.12")
+                .HasAnnotation("ProductVersion", "7.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -56,7 +56,6 @@ namespace ApiAnimalesEtsotikos.Migrations
                         .HasColumnType("real");
 
                     b.Property<string>("Propietario")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -87,6 +86,9 @@ namespace ApiAnimalesEtsotikos.Migrations
                     b.Property<string>("Cedula")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<bool>("Adm")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Direccion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -107,6 +109,7 @@ namespace ApiAnimalesEtsotikos.Migrations
                         new
                         {
                             Cedula = "123",
+                            Adm = true,
                             Direccion = "Conocoto",
                             Nombre = "Edwing",
                             Password = "123"

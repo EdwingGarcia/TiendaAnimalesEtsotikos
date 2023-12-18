@@ -9,7 +9,7 @@ namespace TiendaAnimalesEtsotikos.Controllers
     {
         private readonly HttpClient _httpClient;
         private readonly string _apiBaseUrl = "https://apianimalesadopcion.azurewebsites.net";
-
+      
 
 
         private readonly ILogger<HomeController> _logger;
@@ -28,8 +28,9 @@ namespace TiendaAnimalesEtsotikos.Controllers
             return View();
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string Nombre)
         {
+            ViewBag.Nombre = Nombre;
             return View();
         }
         public IActionResult StartIndex()
@@ -45,13 +46,26 @@ namespace TiendaAnimalesEtsotikos.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(int Cedula, string Password)
         {
-            var cliente = await _httpClient.GetFromJsonAsync<Cliente>($"api/Cliente/{Cedula}");
-            if (cliente != null && Password == cliente.Password)
+            try
             {
-                return View("Index");
+                var cliente = await _httpClient.GetFromJsonAsync<Cliente>($"api/Cliente/{Cedula}");
+                if (cliente != null && Password == cliente.Password && cliente.Adm==true)
+                {
+                    ViewBag.Usuario = cliente.Nombre;
+                    return RedirectToAction("Index", "Home", new { Nombre = ViewBag.Usuario });
+                }
+
             }
-            ViewBag.ErrorMsg = "Cuenta no existente";
+            catch (Exception ex)
+            {
+                TempData["Mensaje"] = "No se encontraron coincidencias";
+
+              //  ViewBag.ErrorMsg = "Cuenta no existente";
+               return View();
+
+            }
             return View();
+
         }
 
 

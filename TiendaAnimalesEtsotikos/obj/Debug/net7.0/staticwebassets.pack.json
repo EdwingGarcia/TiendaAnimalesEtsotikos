@@ -1,272 +1,736 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TiendaAnimalesEtsotikos.bundle.scp.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TiendaAnimalesEtsotikos.bundle.scp.css",
       "PackagePath": "staticwebassets\\TiendaAnimalesEtsotikos.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\cami.jpeg",
-      "PackagePath": "staticwebassets\\img\\cami.jpeg"
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about-2.jpg"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\hamster.png",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\ardilla.jpeg",
+      "PackagePath": "staticwebassets\\img\\ardilla.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\camii.jpeg",
+      "PackagePath": "staticwebassets\\img\\camii.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chefs\\chefs-1.jpg",
+      "PackagePath": "staticwebassets\\img\\chefs\\chefs-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chefs\\chefs-2.jpg",
+      "PackagePath": "staticwebassets\\img\\chefs\\chefs-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chefs\\chefs-3.jpg",
+      "PackagePath": "staticwebassets\\img\\chefs\\chefs-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chi.jpg",
+      "PackagePath": "staticwebassets\\img\\chi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chihuafeli.jpg",
+      "PackagePath": "staticwebassets\\img\\chihuafeli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\chihuahua.jpeg",
+      "PackagePath": "staticwebassets\\img\\chihuahua.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\croc.jpg",
+      "PackagePath": "staticwebassets\\img\\croc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\events-1.jpg",
+      "PackagePath": "staticwebassets\\img\\events-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\events-2.jpg",
+      "PackagePath": "staticwebassets\\img\\events-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\events-3.jpg",
+      "PackagePath": "staticwebassets\\img\\events-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\fresco.jpeg",
+      "PackagePath": "staticwebassets\\img\\fresco.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\hamcookie.jpg",
+      "PackagePath": "staticwebassets\\img\\hamcookie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\hamster.png",
       "PackagePath": "staticwebassets\\img\\hamster.png"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\memee.png",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\hero-img.png",
+      "PackagePath": "staticwebassets\\img\\hero-img.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\lis.jpg",
+      "PackagePath": "staticwebassets\\img\\lis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\memee.png",
       "PackagePath": "staticwebassets\\img\\memee.png"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\nico.jpeg",
-      "PackagePath": "staticwebassets\\img\\nico.jpeg"
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-1.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-1.png"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\img\\tony.jpeg",
-      "PackagePath": "staticwebassets\\img\\tony.jpeg"
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-2.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-2.png"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-3.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-4.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-5.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\menu\\menu-item-6.png",
+      "PackagePath": "staticwebassets\\img\\menu\\menu-item-6.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\nicocat.jpg",
+      "PackagePath": "staticwebassets\\img\\nicocat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\nicoo.jpeg",
+      "PackagePath": "staticwebassets\\img\\nicoo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\nyan-cat.gif",
+      "PackagePath": "staticwebassets\\img\\nyan-cat.gif"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\profe.png",
+      "PackagePath": "staticwebassets\\img\\profe.png"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\pug.jpg",
+      "PackagePath": "staticwebassets\\img\\pug.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\puppy.jpg",
+      "PackagePath": "staticwebassets\\img\\puppy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\reservation.jpg",
+      "PackagePath": "staticwebassets\\img\\reservation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\saddog.webp",
+      "PackagePath": "staticwebassets\\img\\saddog.webp"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\saddogg.jpg",
+      "PackagePath": "staticwebassets\\img\\saddogg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\stats-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\stats-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\team-shape.svg",
+      "PackagePath": "staticwebassets\\img\\team-shape.svg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\img\\tonyy.jpeg",
+      "PackagePath": "staticwebassets\\img\\tonyy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapPulse.min.css",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapPulse.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrapPulse.min.css"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\nicko\\Documents\\Quinto\\Programación IV\\Proyectos\\TiendaAnimalesEtsotikos\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\lib\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\lib\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\lib\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nicko\\Downloads\\TiendaAnimalesEtsotikos-rama-api\\TiendaAnimalesEtsotikos\\wwwroot\\lib\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js.map"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TiendaAnimalesEtsotikos.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -6,64 +6,148 @@
 
 }
 
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+<link rel="stylesheet" href="sweetalert2.min.css"/>
 
-<section class="h-100 gradient-form" style="background-color: #eee;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-xl-10">
-        <div class="card rounded-3 text-black">
-          <div class="row g-0">
-            <div class="col-lg-6">
-              <div class="card-body p-md-5 mx-md-4">
 
-                <div class="text-center">
-                  <img src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png"
-                    style="width: 150px;" alt="logo">
-                  <h4 class="mt-1 mb-5 pb-1">Patitas de Amor</h4>
+<html>
+
+<body>
+    
+
+    <div class="container">
+        <div class="backbox">
+            <div class="loginMsg">
+                <div class="textcontent">
+                    <p class="title">No tienes cuenta?</p>
+                    <p>Ingresa a nuestra plataforma.</p>
+                    <button id="switch1">SIGN UP</button>
+                </div>
+            </div>
+            <div class="signupMsg visibility">
+                <div class="textcontent">
+                    <p class="title">Ya tienes una cuenta?</p>
+                    <p>Log in para administrar.</p>
+                    <button id="switch2">LOG IN</button>
+                </div>
+            </div>
+        </div>
+        <!-- backbox -->
+
+        <div class="frontbox">
+
+            <div class="login">
+                <form asp-controller="Home" asp-action="Login"  method="post">
+                <h2>LOG IN</h2>
+                    <h6>Bienvenido de nuevo!</h6>
+                <div class="inputbox">
+                        <input asp-for="Cedula"  type="text" name="Cedula" placeholder="  CEDULA">
+                        <input asp-for="Password" type="password" name="password" placeholder="  PASSWORD">
+                </div>
+                 <p style="color: red; ">@ViewBag.ErrorMsg</p>
+                <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">LOGIN</button>
+                </form>
+            </div>
+
+            <div class="signup hide">
+                <form asp-controller="Home" asp-action="SignUp" method="post">
+                <h2>SIGN UP</h2>
+                    <div class="inputbox">
+                        <input asp-for="Nombre" type="text" name="nombre" placeholder="  NOMBRE">
+                        <input asp-for="Cedula" type="text" name="cedula" placeholder="  CEDULA">
+                        <input asp-for="Direccion" type="text" name="direccion" placeholder="  DIRECCION">
+                        <input asp-for ="Password" type="password" name="password" placeholder="  PASSWORD">
+                </div>
+                <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">SIGN UP</button>
+                </form>
+            </div>
+@* 
+
+            <form method="post">
+                <h5>Crea a tu cuenta</h5>
+
+                <div class="form-outline mb-4">
+                    <input asp-for="Nombre" class="form-control">
+
+                    <label class="form-label" for="form2Example11">Nombre</label>
                 </div>
 
-                <form  method="post">
-                  <div class="form-outline mb-4">
-                    <input asp-for="Cedula" class="form-control" placeholder="Cedula">
-                    
-                    <label class="form-label" for="form2Example11">Usuario</label>
-                  </div>
 
-                  <div class="form-outline mb-4">
+                <div class="form-outline mb-4">
+                    <input asp-for="Cedula" class="form-control" placeholder="Cedula">
+
+                    <label class="form-label" for="form2Example11">Usuario</label>
+                </div>
+
+                <div class="form-outline mb-4">
                     <input asp-for="Password" type="password" class="form-control" />
                     <label class="form-label" for="form2Example22">Contraseña</label>
-                    <p></p>
-                    @ViewBag.ErrorMsg
-
-                  </div>
 
 
-                  <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit" >Login</button>
-                  </div>
-
-                  <div class="d-flex align-items-center justify-content-center pb-4">
-                    <p class="mb-0 me-2">No tienes una cuenta?</p>
-                    <a asp-action="SignUp"  class="btn btn-outline-info">Sign Up</a>
-                  </div>
-
-                </form>
-
-              </div>
-            </div>
-            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                 <h4 class="mb-4">Somos más que una compañía</h4>
-                <p class="small mb-0">Bienvenidos a nuestra empresa de adopción de animales exóticos, donde el amor por la naturaleza se encuentra con la dedicación por el bienestar animal. En un mundo donde la conservación es esencial, nos comprometemos a proporcionar hogares seguros y amorosos para animales exóticos necesitados. Nos esforzamos por preservar la biodiversidad y educar a nuestras comunidades sobre la importancia crucial de proteger estas especies únicas. Únanse a nosotros en esta misión de cuidado, respeto y admiración por el reino animal.</p>
-                <div style="text-align: center;">
-                    <img src="/img/memee.png" style="width: 200px;" />
-                </div>            
                 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</section>
+                <div class="form-outline mb-4">
+                    <input asp-for="Direccion" class="form-control">
+                    <label class="form-label" for="form2Example11">Dirección</label>
+                </div>
+
+
+
+                <div class="text-center pt-1 mb-5 pb-1">
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Sign Up</button>
+                </div>
+                <p></p>
+                @ViewBag.ErrorMsg
+
+
+                <div class="d-flex align-items-center justify-content-center pb-4">
+                    <p class="mb-0 me-2">Ya tienes una cuenta?</p>
+                    <a asp-action="Login" class="btn btn-outline-info">Login</a>
+                </div>
+
+
+            </form> *@
+
+        </div>
+        <!-- frontbox -->
+    </div>
+</body>
+
+</html>
+
+
+<script src="~/js/login.js" asp-append-version="true"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var mensaje = '@(TempData["Mensaje"]?? string.Empty)';
+        if (mensaje !== '') {
+            Swal.fire({
+                title: "Solo Personal Administrativo",
+                width: 600,
+                padding: "3em",
+                color: "#716add",
+                background: "#fff url(https://sweetalert2.github.io/images/trees.png)",
+                backdrop: `
+        rgba(0,0,123,0.4)
+        url("https://sweetalert2.github.io/images/nyan-cat.gif")
+        left top
+        no-repeat
+      `
+            });
+        }
+
+    });
+</script>
+
+
+
+
+
+
+
+
+
+

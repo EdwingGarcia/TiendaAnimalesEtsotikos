@@ -67,6 +67,7 @@ namespace ApiAnimalesEtsotikos.Controllers
             {
                 cliente1.Nombre = cliente.Nombre != null ? cliente.Nombre : cliente1.Nombre;
                 cliente1.Direccion = cliente.Direccion != null ? cliente.Direccion : cliente1.Direccion;
+                
 
 
                 _db.Cliente.Update(cliente1);

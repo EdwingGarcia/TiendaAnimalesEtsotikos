@@ -4,44 +4,369 @@
     
 }
 
+<html>
+    <body>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center section-bg">
+        <div class="container">
+            <div class="row justify-content-between gy-5">
+                <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+                    <div>
+                        <h2 data-aos="fade-up" style="display: inline-block; margin-right: 10px;">Bienvenido</h2>
+                        <h2 data-aos="fade-up" style="display: inline-block; border-bottom: 3px solid;">@ViewBag.Nombre</h2>
 
 
-<div class="text-center">
-    <h1 class="display-4">Patitas de Amor</h1>
-    <h3>Proyecto de primer progreso Programación IV</h3>   
-    <p>Liseth Abad y Nicolás García</p>
-    <p>Animales gratis a la venta para adoptar: </p>
-</div>
-<!-- Gallery -->
-<div class="row">
-    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-        <img src="/img/tony.jpeg"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Boat on Calm Water" />
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        Bienvenido al proyecto Patitas de Amor!
+                        Creamos una plataforma para administrar tus animales en adopción.<br><br>Programación IV<br>Liseth Abad y Nicolás García.
+                    </p>
+                    <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#book-a-table" class="btn-book-a-table">Start managing</a>
+                        <a href="https://www.youtube.com/watch?v=V0kvqSUbta4&pp=ygUSd2h5IGFkb3B0IGFuaW1hbHMg" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-12 order-1 order-lg-2 text-center text-lg-start">
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
 
-        <img src="https://t4.ftcdn.net/jpg/02/92/13/73/360_F_292137348_pNron5XoE9xxzd0skOePMB1s6XID9vdp.jpg"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Wintry Mountain Landscape" />
-    </div>
+            <div class="section-header">
+                <h2>Sobre Nosotros</h2>
+                <p>Conoce Más <span>Sobre Nosotros</span></p>
+            </div>
 
-    <div class="col-lg-4 mb-4 mb-lg-0">
-        <img src="https://pbs.twimg.com/media/FFlecqcXsAo7E70.jpg"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Mountains in the Clouds" />
+            <div class="row gy-4">
+                <div class="col-lg-7 position-relative about-img" style="background-image: url(/img/chihuafeli.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+                    <div class="call-us position-absolute">
+                        <h4>Llámanos</h4>
+                        <p>+593 95037442</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+                    <div class="content ps-0 ps-lg-5">
+                        <p class="fst-italic">
+                            Este proyecto tiene como objetivo la creación de una plataforma web completa destinada a facilitar la adopción responsable de animales rescatados, junto con la gestión eficiente de servicios veterinarios asociados.
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> Facilitar la Adopción Responsable.</li>
+                            <li><i class="bi bi-check2-all"></i> Integración con Clínicas Veterinarias.</li>
+                            <li><i class="bi bi-check2-all"></i> Promover la Conciencia Ambiental y Fomentar la Colaboración y Comunidad.</li>
+                        </ul>
+                        <p>
+                            Este es un sistema integral de gestión habilitando operaciones CRUD para animales, clientes y veterinarias, junto con una funcionalidad de adopción de animales. Este enfoque integral busca no solo simplificar el proceso de adopción, sino también proporcionar un entorno que promueva la salud y el bienestar continuo de los animales adoptados.
+                        </p>
 
-        <img src="https://img.wattpad.com/173bdeae3ad9476c2961909ced0836ae5ac82e4c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6c5836516e4453626163796754513d3d2d3238342e313565313634626162356437373039383933363235353238333535372e6a7067?s=fit&w=720&h=720"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Boat on Calm Water" />
-    </div>
+                        <div class="position-relative mt-4">
+                            <img src="/img/croc.jpg" class="img-fluid" alt="">
+                            <a href="https://www.youtube.com/watch?v=0QAEwP9HO7M&ab_channel=Sujes" class="glightbox play-btn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="col-lg-4 mb-4 mb-lg-0">
-        <img src="/img/nico.jpeg"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Waves at Sea" />
+        </div>
+    </section><!-- End About Section -->
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+        <div class="container" data-aos="fade-up">
 
-        <img src="/img/cami.jpeg"
-             class="w-100 shadow-1-strong rounded mb-4"
-             alt="Yosemite National Park" />
-    </div>
-</div>
-<!-- Gallery -->
+            <div class="section-header">
+                <h2>gallery</h2>
+                <p>Animales <span>Adoptados</span></p>
+            </div>
+
+            <div class="gallery-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/pug.jpg"><img src="/img/pug.jpg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/camii.jpeg"><img src="/img/camii.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/tonyy.jpeg"><img src="/img/tonyy.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/ardilla.jpeg"><img src="/img/ardilla.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/nicoo.jpeg"><img src="/img/nicoo.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/chihuahua.jpeg"><img src="/img/chihuahua.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/fresco.jpeg"><img src="/img/fresco.jpeg" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="/img/chi.jpg"><img src="/img/chi.jpg" class="img-fluid" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- End Gallery Section -->
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+        <div class="container" data-aos="zoom-out">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Clientes</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Rescates</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Animales salvados</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stats-item text-center w-100 h-100">
+                        <span data-purecounter-start="0" data-purecounter-end="115" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Adopciones</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+            </div>
+
+        </div>
+    </section><!-- End Stats Counter Section -->
+    <!-- ======= Chefs Section ======= -->
+    <section id="team" class="chefs section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Desarrolladores</h2>
+                <p>Nuestro <span>Equipo</span></p>
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="chef-member">
+                        <div class="member-img">
+                            <img src="/img/lis.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Liseth Abad</h4>
+                            <span>Front End</span>
+                            <p>Liseth Abad es nuestra experta en frontend, dando vida a la interfaz de usuario con habilidades en HTML, CSS y JavaScript. Trabaja de cerca con el equipo de diseño para crear experiencias atractivas y funcionales para los usuarios.</p>
+                        </div>
+                    </div>
+                </div><!-- End Chefs Member -->
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="chef-member">
+                        <div class="member-img">
+                            <img src="/img/nicocat.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Nicolás García</h4>
+                            <span>Back End</span>
+                            <p>Nicolás García lidera el desarrollo del backend con experiencia en Python y Java. Se encarga de la lógica detrás de la aplicación, maneja las solicitudes del cliente, interactúa con la base de datos y desarrolla API para una comunicación eficiente entre el frontend y otros servicios, asegurando un funcionamiento sólido y seguro.</p>
+                        </div>
+                    </div>
+                </div><!-- End Chefs Member -->
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="chef-member">
+                        <div class="member-img">
+                            <img src="~/img/profe.png" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Diosito</h4>
+                            <span>Gerente de Proyecto</span>
+                            <p>Diosito lidera como Gerente de Proyecto, coordinando recursos y plazos para asegurar el éxito del proyecto de desarrollo de software. Su enfoque proactivo y habilidades de comunicación eficiente garantizan una ejecución fluida y la consecución de objetivos clave.</p>
+                        </div>
+                    </div>
+                </div><!-- End Chefs Member -->
+
+            </div>
+
+        </div>
+    </section><!-- End Chefs Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>Necesitas ayuda? <span>Contáctanos</span></p>
+            </div>
+
+            <div class="mb-3">
+                <<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d997.4505508745358!2d-78.45977331637305!3d-0.16285505030068267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1702172123541!5m2!1ses-419!2sec" frameborder="0" allowfullscreen></iframe>
+            </div><!-- End Google Maps -->
+
+            <div class="row gy-4">
+
+                <div class="col-md-6">
+                    <div class="info-item  d-flex align-items-center">
+                        <i class="icon bi bi-map flex-shrink-0"></i>
+                        <div>
+                            <h3>Nuestra Dirección</h3>
+                            <p>RGPR+R6V, Vía a Nayón, Quito 170124</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center">
+                        <i class="icon bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                            <h3>Escríbenos</h3>
+                            <p>patitasdeamor@gmail.com</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item  d-flex align-items-center">
+                        <i class="icon bi bi-telephone flex-shrink-0"></i>
+                        <div>
+                            <h3>Llamanos</h3>
+                            <p>+593 95037442</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item  d-flex align-items-center">
+                        <i class="icon bi bi-share flex-shrink-0"></i>
+                        <div>
+                            <h3>Horario de Atención</h3>
+                            <div>
+                                <strong>Lun-Sab:</strong> 11AM - 23PM;
+                                <strong>Domingo:</strong> Closed
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+            </div>
+
+
+
+        </div>
+    </section><!-- End Contact Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>
+                            RGPR+R6V, Vía a Nayón <br>
+                            Quito 170124<br>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="bi bi-telephone icon"></i>
+                    <div>
+                        <h4>Administración</h4>
+                        <p>
+                            <strong>Teléfono:</strong> +593 9884563<br>
+                            <strong>Email:</strong> lisavsqz@hotmail.com<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links d-flex">
+                    <i class="bi bi-clock icon"></i>
+                    <div>
+                        <h4>Horario de Atención</h4>
+                        <p>
+                            <strong>Lun-Sab: 11AM</strong> - 23PM<br>
+                            Domingo: Closed
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Síguenos</h4>
+                    <div class="social-links d-flex">
+                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>PatitasDeAmor</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+</body>
+</html>
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

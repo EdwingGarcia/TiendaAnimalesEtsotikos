@@ -4,6 +4,14 @@
     ViewData["Title"] = "Lista de animales";
 }
 
+
+
+<style>
+    .fixed-top {
+        position: relative !important
+    }
+</style>
+
 <div class="container">
     <h1>@ViewData["Title"]</h1>
     <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Animal")'">Ingresar un animal</button>

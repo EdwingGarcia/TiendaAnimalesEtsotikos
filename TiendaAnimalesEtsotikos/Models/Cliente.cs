@@ -12,5 +12,6 @@ namespace TiendaAnimalesEtsotikos.Models
         public string Nombre { get; set; }
         public string Direccion { get; set; }
         public int? AnimalComprado { get; set; } //Id animal
+        public Boolean Adm { get; set; }
     }
 }

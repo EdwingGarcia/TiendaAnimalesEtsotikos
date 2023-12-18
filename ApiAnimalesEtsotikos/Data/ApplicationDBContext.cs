@@ -38,10 +38,11 @@ namespace ApiAnimalesEtsotikos.Data
                     Nombre = "Edwing",
                     Direccion = "Conocoto",
                     Password = "123",
+                    Adm=true
 
                    
                 }                
-            );
+            );;
 
 
 
